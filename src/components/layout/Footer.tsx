@@ -85,6 +85,17 @@ export default function Footer() {
         <span className="text-[0.62rem] text-bark/70">
           Crafted with love for the mountains & people of Jakhol
         </span>
+        <span className="text-[0.62rem] text-bark/60">
+          Built by{' '}
+          <a
+            href="https://omnistack.co.in"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gold hover:text-bark transition-colors duration-[280ms] underline underline-offset-2"
+          >
+            omnistack.co.in
+          </a>
+        </span>
       </div>
     </>
   )
