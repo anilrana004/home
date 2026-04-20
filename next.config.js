@@ -27,7 +27,6 @@ const nextConfig = {
 
   // ── Experimental ────────────────────────────────────────────────────────
   experimental: {
-    optimizeCss: true,
     optimizePackageImports: ['framer-motion', 'clsx'],
   },
 

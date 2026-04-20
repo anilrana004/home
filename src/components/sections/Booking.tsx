@@ -300,6 +300,7 @@ export default function Booking() {
             </div>
           </a>
         </div>
+      </div>
     </section>
   )
 }
