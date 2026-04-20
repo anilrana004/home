@@ -19,7 +19,7 @@ const LocalAttractions = dynamic(() => import('@/components/sections/LocalAttrac
 const Testimonials    = dynamic(() => import('@/components/sections/Testimonials'))
 const Location        = dynamic(() => import('@/components/sections/Location'))
 const Host            = dynamic(() => import('@/components/sections/Host'))
-const Booking         = dynamic(() => import('@/components/sections/Booking'))
+const Booking         = dynamic(() => import('@/components/sections/BookingClient'))
 const Footer          = dynamic(() => import('@/components/layout/Footer'))
 const BackToTop       = dynamic(() => import('@/components/ui/BackToTop'))
 
