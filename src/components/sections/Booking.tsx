@@ -273,33 +273,30 @@ export default function Booking() {
           </AnimatePresence>
         </div>
 
-        {/* Contact details below form card — visible on mobile too */}
-        <div className="md:col-start-2 flex flex-col sm:flex-row gap-4 mt-2">
-          <a
-            href="tel:+919528323602"
-            className="flex items-center gap-3 flex-1 bg-white border border-[rgba(58,37,24,0.1)] rounded-brand px-5 py-4 hover:border-gold hover:shadow-sm transition-all duration-[280ms] group"
-          >
-            <span className="text-[1.1rem]" aria-hidden="true">📞</span>
-            <div>
-              <div className="text-[0.58rem] tracking-[0.14em] uppercase text-text-muted mb-[0.1rem]">Call / WhatsApp</div>
-              <div className="text-[0.82rem] font-medium text-bark group-hover:text-gold transition-colors duration-[280ms]">
-                +91 95283 23602
-              </div>
-            </div>
-          </a>
-          <a
-            href="mailto:alpinehomestay52@gmail.com"
-            className="flex items-center gap-3 flex-1 bg-white border border-[rgba(58,37,24,0.1)] rounded-brand px-5 py-4 hover:border-gold hover:shadow-sm transition-all duration-[280ms] group"
-          >
-            <span className="text-[1.1rem]" aria-hidden="true">✉️</span>
-            <div>
-              <div className="text-[0.58rem] tracking-[0.14em] uppercase text-text-muted mb-[0.1rem]">Email Us</div>
-              <div className="text-[0.82rem] font-medium text-bark group-hover:text-gold transition-colors duration-[280ms]">
-                alpinehomestay52@gmail.com
-              </div>
-            </div>
-          </a>
-        </div>
+      </div>
+
+      {/* Contact strip — outside grid, full width below */}
+      <div className="relative z-10 flex flex-col sm:flex-row gap-4 mt-8 md:max-w-[60%] md:ml-auto">
+        <a
+          href="tel:+919528323602"
+          className="flex items-center gap-3 flex-1 bg-white border border-[rgba(58,37,24,0.1)] rounded-brand px-5 py-4 hover:border-gold hover:shadow-sm transition-all duration-[280ms] group"
+        >
+          <span className="text-[1.1rem]" aria-hidden="true">📞</span>
+          <div>
+            <div className="text-[0.58rem] tracking-[0.14em] uppercase text-text-muted mb-[0.1rem]">Call / WhatsApp</div>
+            <div className="text-[0.82rem] font-medium text-bark group-hover:text-gold transition-colors duration-[280ms]">+91 95283 23602</div>
+          </div>
+        </a>
+        <a
+          href="mailto:alpinehomestay52@gmail.com"
+          className="flex items-center gap-3 flex-1 bg-white border border-[rgba(58,37,24,0.1)] rounded-brand px-5 py-4 hover:border-gold hover:shadow-sm transition-all duration-[280ms] group"
+        >
+          <span className="text-[1.1rem]" aria-hidden="true">✉️</span>
+          <div>
+            <div className="text-[0.58rem] tracking-[0.14em] uppercase text-text-muted mb-[0.1rem]">Email Us</div>
+            <div className="text-[0.82rem] font-medium text-bark group-hover:text-gold transition-colors duration-[280ms]">alpinehomestay52@gmail.com</div>
+          </div>
+        </a>
       </div>
     </section>
   )
