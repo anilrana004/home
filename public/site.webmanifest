@@ -1,0 +1,20 @@
+{
+  "name": "The Alpine Homestay Jakhol",
+  "short_name": "Alpine Homestay",
+  "description": "Best Adventure Tourism Village 2024. Wooden mountain retreat in Jakhol, Uttarkashi — inside Govind Wildlife Sanctuary.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FDFAF7",
+  "theme_color": "#3A2518",
+  "orientation": "portrait-primary",
+  "lang": "en-IN",
+  "categories": ["travel", "lifestyle"],
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
