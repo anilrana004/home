@@ -106,7 +106,7 @@ export const JAKHOL_FACTS = [
   },
   {
     icon: '🛕',
-    title: 'Duryodhana Temple — Mahabharata Heritage',
+    title: 'Bholenath Temple — Mahabharata Heritage',
     desc: "One of India's only temples dedicated to Duryodhana. Locals claim descent from the Kauravas and Pandavas. The Tons River (Tamas) flows from their tears of defeat.",
   },
   {
